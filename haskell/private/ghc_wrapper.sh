@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 set -ueo pipefail
 export PATH=${PATH:-} # otherwise GCC fails on Windows
 
