@@ -139,6 +139,8 @@ _ghc_nixpkgs_haskell_toolchain = repository_rule(
     },
 )
 
+ghc_nixpkgs_haskell_toolchain = _ghc_nixpkgs_haskell_toolchain
+
 def _ghc_nixpkgs_toolchain_impl(repository_ctx):
     # These constraints might look tautological, because they always
     # match the host platform if it is the same as the target
